@@ -50,6 +50,7 @@ Este projeto Java tem como objetivo praticar conceitos de `Set`, `List`, `Linked
 📦 ExercicioCollections
  ┣ 📂 ExercicioCollections      
  ┃ ┣ 📜 ExerciciosProposto.java
+ ┣
  ┣ 📜 README.md                 
  ┗ 📜 .gitignore
 
