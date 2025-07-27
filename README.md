@@ -1,62 +1,81 @@
-🌈 Projeto: Manipulação de Conjuntos e Ordenações com Java
-Este projeto foi desenvolvido em Java com o objetivo de praticar conceitos de Coleções (Set e List), interface Comparable, Comparator, além de aplicar ordenações personalizadas e operações com conjuntos.
+# Exercício de Manipulação de Conjuntos em Java
 
-📌 Funcionalidades
-Exibir cores do arco-íris com:
+Este projeto Java tem como objetivo praticar conceitos de `Set`, `List`, `LinkedHashSet`, ordenações com `Comparator` e `Comparable`, além de operações com coleções como ordenação, filtragem, e remoção de elementos.
 
-Ordem de inserção
+---
 
-Ordem alfabética
+## 🌈 Parte 1: Arco-Íris
 
-Ordem reversa
+### Objetivos:
 
-Filtros (inicial com letra específica)
+- Exibir todas as cores do arco-íris, uma abaixo da outra.
+- Exibir a quantidade de cores.
+- Exibir as cores em ordem alfabética.
+- Exibir as cores na ordem inversa da inserção.
+- Exibir cores que começam com a letra **V**.
+- Remover cores que **não** começam com a letra **V**.
+- Limpar o conjunto de cores.
+- Verificar se o conjunto está vazio.
 
-Remoções e verificação de vazio
+---
 
-Gerenciar linguagens de programação favoritas com:
+## 💻 Parte 2: Linguagens Favoritas
 
-Ordenação por nome (natural)
+### Objetivos:
 
-Ordenação por IDE
+- Criar uma coleção com 3 linguagens de programação contendo:
+  - Nome
+  - Ano de criação
+  - IDE favorita
 
-Ordenação por ano de criação + nome
+### Ordenações implementadas:
 
-Ordenação por nome + ano de criação + IDE
+- ✅ Ordem de Inserção  
+- ✅ Ordem Natural (por nome usando `compareToIgnoreCase()`)
+- ✅ Ordem por IDE (usando `ComparatorIde`)
+- ✅ Ordem por Ano de Criação e Nome (usando `ComparatorAnoDeCriacaoNome`)
+- ✅ Ordem por Nome, Ano e IDE (usando `ComparatorNomeAnoDeCriacaoIde`)
 
-💻 Tecnologias Utilizadas
-Java 17+ (ou compatível)
+---
 
-IDE: Visual Studio Code / IntelliJ IDEA
+## 🛠️ Tecnologias utilizadas
 
-Estruturas: Set, List, ArrayList, LinkedHashSet
+- Java 17+
+- IDE de sua preferência (IntelliJ, VSCode, Eclipse)
+- `java.util.Set`, `java.util.List`, `java.util.LinkedHashSet`, `Collections`, `Comparator`, `Comparable`
 
-Interfaces: Comparable, Comparator
-
-🧠 Conceitos Praticados
-Implementação de métodos compareTo() e compare()
-
-Uso de Collections.sort() e List.sort()
-
-Filtros com startsWith()
-
-Iterações com for-each
-
-Trabalhar com toString() para exibição de objetos
+---
+## 📁 Estrutura de pastas
 
 📦 ExercicioCollections
- ┣ 📂 ExercicioCollections       
+ ┣ 📂 ExercicioCollections      
  ┃ ┣ 📜 ExerciciosProposto.java
- ┣ 📜 README.md                  
+ ┣ 📜 README.md                 
  ┗ 📜 .gitignore
 
-🚀 Como executar
-Clone o repositório:
 
-bash
+yaml
 Copiar
 Editar
-git clone https://github.com/seu-usuario/seu-projeto.git
-Abra no Visual Studio Code ou IntelliJ.
 
-Compile e execute a classe ExerciciosProposto.
+---
+
+## 🚀 Como executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/ExercicioCollections.git
+Abra no VSCode ou outra IDE.
+
+Compile e execute a classe ExerciciosProposto.java.
+
+## 📚 Conceitos praticados
+Programação Orientada a Objetos (POO)
+
+Ordenação de listas
+
+Manipulação de conjuntos (Set)
+
+Boas práticas com Comparable e Comparator
+
+Uso de estruturas imutáveis e ordenadas (LinkedHashSet, ArrayList)
