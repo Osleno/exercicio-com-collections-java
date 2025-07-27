@@ -48,9 +48,9 @@ Este projeto Java tem como objetivo praticar conceitos de `Set`, `List`, `Linked
 ## 📁 Estrutura de pastas
 
 📦 ExercicioCollections
+
  ┣ 📂 ExercicioCollections      
  ┃ ┣ 📜 ExerciciosProposto.java
- ┣
  ┣ 📜 README.md                 
  ┗ 📜 .gitignore
 
